@@ -1,0 +1,11 @@
+int sum = 1;
+int i;
+double dollars;
+
+for(i = 1; i < 31; i++){
+    sum = sum * 2;
+}
+
+dollars = (double)sum/100;
+
+printf("%.2f", dollars);
